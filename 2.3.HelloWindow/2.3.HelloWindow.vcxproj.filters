@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Srouce Files">
+      <UniqueIdentifier>{f43b0ff0-b854-40f8-97be-bca6cd5c1bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{189c6e54-3ea4-4ed3-bc56-ca3d23f579d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c8dcbc7f-a0c8-43ab-99b3-796420f412e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{cd3560f5-a0c8-49e4-b4ae-fee9b7cf8ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files">
+      <UniqueIdentifier>{52810d25-7a2d-4b56-8784-58c7aa839cbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="Class Files\glfwFunc.cpp">
+      <Filter>Class Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_HelloWindow.cpp">
+      <Filter>Srouce Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Class Files\glfwFunc.h">
+      <Filter>Class Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
